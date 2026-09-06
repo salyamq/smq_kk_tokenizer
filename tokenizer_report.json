@@ -1,0 +1,2602 @@
+{
+  "bpe_16000": {
+    "corpus_metrics": {
+      "total_words": 55495,
+      "total_tokens": 91899,
+      "total_chars": 387442,
+      "fertility_tokens_per_word": 1.656,
+      "avg_token_length_chars": 4.216,
+      "compression_chars_per_token": 4.216,
+      "unk_rate": 0.000479,
+      "unique_tokens_used": 10795,
+      "vocab_size": 16000,
+      "vocab_utilization": 0.6747
+    },
+    "morpheme_metrics": {
+      "morpheme_exact_match_accuracy": 0.1379,
+      "morpheme_boundary_precision_avg": 1.0,
+      "morpheme_boundary_recall_avg": 0.3914,
+      "morpheme_boundary_f1_avg": 0.481,
+      "total_test_words": 29,
+      "skipped_words": 1,
+      "per_word": {
+        "балаларға": {
+          "gold": "бала+лар+ға",
+          "predicted": "балаларға",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "келгендеріңіз": {
+          "gold": "кел+ген+дер+іңіз",
+          "predicted": "келген+деріңіз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "жаздыртылмаған": {
+          "gold": "жаз+дыр+т+ыл+ма+ған",
+          "predicted": "жаз+дыр+тыл+маған",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75
+        },
+        "оқушыларымыздың": {
+          "gold": "оқу+шы+лар+ымыз+дың",
+          "predicted": "оқушылар+ымыздың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "сөйлесетінмін": {
+          "gold": "сөйле+с+е+тін+мін",
+          "predicted": "сөйлес+етін+мін",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "тапсырылды": {
+          "gold": "тапсыр+ыл+ды",
+          "predicted": "тапсырылды",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "бармайтынбыз": {
+          "gold": "бар+ма+йтын+быз",
+          "predicted": "бар+майтын+быз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "сұлулығымен": {
+          "skipped": true,
+          "reason": "reconstruction_mismatch"
+        },
+        "адамдарша": {
+          "gold": "адам+дар+ша",
+          "predicted": "адамдар+ша",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "жұмысшылармен": {
+          "gold": "жұмыс+шы+лар+мен",
+          "predicted": "жұмысшылар+мен",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "бүгінгі": {
+          "gold": "бүгін+гі",
+          "predicted": "бүгінгі",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "теміржолшы": {
+          "gold": "темір+жол+шы",
+          "predicted": "теміржол+шы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "ақпараттандыру": {
+          "gold": "ақпарат+тан+дыр+у",
+          "predicted": "ақпараттандыру",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "мемлекеттік": {
+          "gold": "мемлекет+тік",
+          "predicted": "мемлекеттік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "қолданбалы": {
+          "gold": "қолдан+ба+лы",
+          "predicted": "қолданбалы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "кітаптарым": {
+          "gold": "кітап+тар+ым",
+          "predicted": "кітаптар+ым",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "мектепке": {
+          "gold": "мектеп+ке",
+          "predicted": "мектепке",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "ағаштардың": {
+          "gold": "ағаш+тар+дың",
+          "predicted": "ағаш+тардың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "балалардан": {
+          "gold": "бала+лар+дан",
+          "predicted": "балалар+дан",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "келмейді": {
+          "gold": "кел+ме+й+ді",
+          "predicted": "келмейді",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "барғандар": {
+          "gold": "бар+ған+дар",
+          "predicted": "барған+дар",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "алмадым": {
+          "gold": "ал+ма+ды+м",
+          "predicted": "алмады+м",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "көрдік": {
+          "gold": "көр+ді+к",
+          "predicted": "көрдік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "жазамын": {
+          "gold": "жаз+а+мын",
+          "predicted": "жаз+амын",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "кетеміз": {
+          "gold": "кет+е+міз",
+          "predicted": "кет+еміз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "оқулықтарыңыз": {
+          "gold": "оқу+лық+тар+ыңыз",
+          "predicted": "оқулықтар+ыңыз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "Атырау": {
+          "gold": "Атырау",
+          "predicted": "Атырау",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Тараз": {
+          "gold": "Тараз",
+          "predicted": "Тараз",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "мен": {
+          "gold": "мен",
+          "predicted": "мен",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ие": {
+          "gold": "ие",
+          "predicted": "ие",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  },
+  "bpe_32000": {
+    "corpus_metrics": {
+      "total_words": 55495,
+      "total_tokens": 82624,
+      "total_chars": 387442,
+      "fertility_tokens_per_word": 1.4889,
+      "avg_token_length_chars": 4.6893,
+      "compression_chars_per_token": 4.6892,
+      "unk_rate": 0.000533,
+      "unique_tokens_used": 15119,
+      "vocab_size": 32000,
+      "vocab_utilization": 0.4725
+    },
+    "morpheme_metrics": {
+      "morpheme_exact_match_accuracy": 0.1379,
+      "morpheme_boundary_precision_avg": 1.0,
+      "morpheme_boundary_recall_avg": 0.3626,
+      "morpheme_boundary_f1_avg": 0.4408,
+      "total_test_words": 29,
+      "skipped_words": 1,
+      "per_word": {
+        "балаларға": {
+          "gold": "бала+лар+ға",
+          "predicted": "балаларға",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "келгендеріңіз": {
+          "gold": "кел+ген+дер+іңіз",
+          "predicted": "келген+деріңіз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "жаздыртылмаған": {
+          "gold": "жаз+дыр+т+ыл+ма+ған",
+          "predicted": "жаз+дыр+тыл+маған",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75
+        },
+        "оқушыларымыздың": {
+          "gold": "оқу+шы+лар+ымыз+дың",
+          "predicted": "оқушылар+ымыздың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "сөйлесетінмін": {
+          "gold": "сөйле+с+е+тін+мін",
+          "predicted": "сөйлес+етін+мін",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "тапсырылды": {
+          "gold": "тапсыр+ыл+ды",
+          "predicted": "тапсырылды",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "бармайтынбыз": {
+          "gold": "бар+ма+йтын+быз",
+          "predicted": "бар+майтын+быз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "сұлулығымен": {
+          "skipped": true,
+          "reason": "reconstruction_mismatch"
+        },
+        "адамдарша": {
+          "gold": "адам+дар+ша",
+          "predicted": "адамдар+ша",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "жұмысшылармен": {
+          "gold": "жұмыс+шы+лар+мен",
+          "predicted": "жұмысшылар+мен",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "бүгінгі": {
+          "gold": "бүгін+гі",
+          "predicted": "бүгінгі",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "теміржолшы": {
+          "gold": "темір+жол+шы",
+          "predicted": "теміржол+шы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "ақпараттандыру": {
+          "gold": "ақпарат+тан+дыр+у",
+          "predicted": "ақпараттандыру",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "мемлекеттік": {
+          "gold": "мемлекет+тік",
+          "predicted": "мемлекеттік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "қолданбалы": {
+          "gold": "қолдан+ба+лы",
+          "predicted": "қолданбалы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "кітаптарым": {
+          "gold": "кітап+тар+ым",
+          "predicted": "кітаптар+ым",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "мектепке": {
+          "gold": "мектеп+ке",
+          "predicted": "мектепке",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "ағаштардың": {
+          "gold": "ағаш+тар+дың",
+          "predicted": "ағаштардың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "балалардан": {
+          "gold": "бала+лар+дан",
+          "predicted": "балалар+дан",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "келмейді": {
+          "gold": "кел+ме+й+ді",
+          "predicted": "келмейді",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "барғандар": {
+          "gold": "бар+ған+дар",
+          "predicted": "барған+дар",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "алмадым": {
+          "gold": "ал+ма+ды+м",
+          "predicted": "алмадым",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "көрдік": {
+          "gold": "көр+ді+к",
+          "predicted": "көрдік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "жазамын": {
+          "gold": "жаз+а+мын",
+          "predicted": "жаз+амын",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "кетеміз": {
+          "gold": "кет+е+міз",
+          "predicted": "кет+еміз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "оқулықтарыңыз": {
+          "gold": "оқу+лық+тар+ыңыз",
+          "predicted": "оқулықтар+ыңыз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "Атырау": {
+          "gold": "Атырау",
+          "predicted": "Атырау",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Тараз": {
+          "gold": "Тараз",
+          "predicted": "Тараз",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "мен": {
+          "gold": "мен",
+          "predicted": "мен",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ие": {
+          "gold": "ие",
+          "predicted": "ие",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  },
+  "bpe_50000": {
+    "corpus_metrics": {
+      "total_words": 55495,
+      "total_tokens": 78075,
+      "total_chars": 387442,
+      "fertility_tokens_per_word": 1.4069,
+      "avg_token_length_chars": 4.9625,
+      "compression_chars_per_token": 4.9624,
+      "unk_rate": 0.000564,
+      "unique_tokens_used": 17374,
+      "vocab_size": 50000,
+      "vocab_utilization": 0.3475
+    },
+    "morpheme_metrics": {
+      "morpheme_exact_match_accuracy": 0.1379,
+      "morpheme_boundary_precision_avg": 1.0,
+      "morpheme_boundary_recall_avg": 0.2954,
+      "morpheme_boundary_f1_avg": 0.3565,
+      "total_test_words": 29,
+      "skipped_words": 1,
+      "per_word": {
+        "балаларға": {
+          "gold": "бала+лар+ға",
+          "predicted": "балаларға",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "келгендеріңіз": {
+          "gold": "кел+ген+дер+іңіз",
+          "predicted": "келген+деріңіз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "жаздыртылмаған": {
+          "gold": "жаз+дыр+т+ыл+ма+ған",
+          "predicted": "жаз+дыр+тылмаған",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.571
+        },
+        "оқушыларымыздың": {
+          "gold": "оқу+шы+лар+ымыз+дың",
+          "predicted": "оқушылар+ымыздың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "сөйлесетінмін": {
+          "gold": "сөйле+с+е+тін+мін",
+          "predicted": "сөйлесетін+мін",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "тапсырылды": {
+          "gold": "тапсыр+ыл+ды",
+          "predicted": "тапсырылды",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "бармайтынбыз": {
+          "gold": "бар+ма+йтын+быз",
+          "predicted": "бар+майтын+быз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "сұлулығымен": {
+          "skipped": true,
+          "reason": "reconstruction_mismatch"
+        },
+        "адамдарша": {
+          "gold": "адам+дар+ша",
+          "predicted": "адамдар+ша",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "жұмысшылармен": {
+          "gold": "жұмыс+шы+лар+мен",
+          "predicted": "жұмысшылар+мен",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "бүгінгі": {
+          "gold": "бүгін+гі",
+          "predicted": "бүгінгі",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "теміржолшы": {
+          "gold": "темір+жол+шы",
+          "predicted": "теміржол+шы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "ақпараттандыру": {
+          "gold": "ақпарат+тан+дыр+у",
+          "predicted": "ақпараттандыру",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "мемлекеттік": {
+          "gold": "мемлекет+тік",
+          "predicted": "мемлекеттік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "қолданбалы": {
+          "gold": "қолдан+ба+лы",
+          "predicted": "қолданбалы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "кітаптарым": {
+          "gold": "кітап+тар+ым",
+          "predicted": "кітаптар+ым",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "мектепке": {
+          "gold": "мектеп+ке",
+          "predicted": "мектепке",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "ағаштардың": {
+          "gold": "ағаш+тар+дың",
+          "predicted": "ағаштардың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "балалардан": {
+          "gold": "бала+лар+дан",
+          "predicted": "балалардан",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "келмейді": {
+          "gold": "кел+ме+й+ді",
+          "predicted": "келмейді",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "барғандар": {
+          "gold": "бар+ған+дар",
+          "predicted": "барған+дар",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "алмадым": {
+          "gold": "ал+ма+ды+м",
+          "predicted": "алмадым",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "көрдік": {
+          "gold": "көр+ді+к",
+          "predicted": "көрдік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "жазамын": {
+          "gold": "жаз+а+мын",
+          "predicted": "жазамын",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "кетеміз": {
+          "gold": "кет+е+міз",
+          "predicted": "кетеміз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "оқулықтарыңыз": {
+          "gold": "оқу+лық+тар+ыңыз",
+          "predicted": "оқулықтар+ыңыз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "Атырау": {
+          "gold": "Атырау",
+          "predicted": "Атырау",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Тараз": {
+          "gold": "Тараз",
+          "predicted": "Тараз",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "мен": {
+          "gold": "мен",
+          "predicted": "мен",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ие": {
+          "gold": "ие",
+          "predicted": "ие",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  },
+  "bpe_64000": {
+    "corpus_metrics": {
+      "total_words": 55495,
+      "total_tokens": 76105,
+      "total_chars": 387442,
+      "fertility_tokens_per_word": 1.3714,
+      "avg_token_length_chars": 5.0909,
+      "compression_chars_per_token": 5.0909,
+      "unk_rate": 0.000578,
+      "unique_tokens_used": 18375,
+      "vocab_size": 64000,
+      "vocab_utilization": 0.2871
+    },
+    "morpheme_metrics": {
+      "morpheme_exact_match_accuracy": 0.1379,
+      "morpheme_boundary_precision_avg": 1.0,
+      "morpheme_boundary_recall_avg": 0.2885,
+      "morpheme_boundary_f1_avg": 0.3483,
+      "total_test_words": 29,
+      "skipped_words": 1,
+      "per_word": {
+        "балаларға": {
+          "gold": "бала+лар+ға",
+          "predicted": "балаларға",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "келгендеріңіз": {
+          "gold": "кел+ген+дер+іңіз",
+          "predicted": "келген+деріңіз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "жаздыртылмаған": {
+          "gold": "жаз+дыр+т+ыл+ма+ған",
+          "predicted": "жаздыр+тылмаған",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.2,
+          "f1": 0.333
+        },
+        "оқушыларымыздың": {
+          "gold": "оқу+шы+лар+ымыз+дың",
+          "predicted": "оқушылар+ымыздың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "сөйлесетінмін": {
+          "gold": "сөйле+с+е+тін+мін",
+          "predicted": "сөйлесетін+мін",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "тапсырылды": {
+          "gold": "тапсыр+ыл+ды",
+          "predicted": "тапсырылды",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "бармайтынбыз": {
+          "gold": "бар+ма+йтын+быз",
+          "predicted": "бар+майтын+быз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "сұлулығымен": {
+          "skipped": true,
+          "reason": "reconstruction_mismatch"
+        },
+        "адамдарша": {
+          "gold": "адам+дар+ша",
+          "predicted": "адамдар+ша",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "жұмысшылармен": {
+          "gold": "жұмыс+шы+лар+мен",
+          "predicted": "жұмысшылар+мен",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "бүгінгі": {
+          "gold": "бүгін+гі",
+          "predicted": "бүгінгі",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "теміржолшы": {
+          "gold": "темір+жол+шы",
+          "predicted": "теміржол+шы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "ақпараттандыру": {
+          "gold": "ақпарат+тан+дыр+у",
+          "predicted": "ақпараттандыру",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "мемлекеттік": {
+          "gold": "мемлекет+тік",
+          "predicted": "мемлекеттік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "қолданбалы": {
+          "gold": "қолдан+ба+лы",
+          "predicted": "қолданбалы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "кітаптарым": {
+          "gold": "кітап+тар+ым",
+          "predicted": "кітаптар+ым",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "мектепке": {
+          "gold": "мектеп+ке",
+          "predicted": "мектепке",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "ағаштардың": {
+          "gold": "ағаш+тар+дың",
+          "predicted": "ағаштардың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "балалардан": {
+          "gold": "бала+лар+дан",
+          "predicted": "балалардан",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "келмейді": {
+          "gold": "кел+ме+й+ді",
+          "predicted": "келмейді",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "барғандар": {
+          "gold": "бар+ған+дар",
+          "predicted": "барған+дар",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "алмадым": {
+          "gold": "ал+ма+ды+м",
+          "predicted": "алмадым",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "көрдік": {
+          "gold": "көр+ді+к",
+          "predicted": "көрдік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "жазамын": {
+          "gold": "жаз+а+мын",
+          "predicted": "жазамын",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "кетеміз": {
+          "gold": "кет+е+міз",
+          "predicted": "кетеміз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "оқулықтарыңыз": {
+          "gold": "оқу+лық+тар+ыңыз",
+          "predicted": "оқулықтар+ыңыз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "Атырау": {
+          "gold": "Атырау",
+          "predicted": "Атырау",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Тараз": {
+          "gold": "Тараз",
+          "predicted": "Тараз",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "мен": {
+          "gold": "мен",
+          "predicted": "мен",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ие": {
+          "gold": "ие",
+          "predicted": "ие",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  },
+  "bpe_8000": {
+    "corpus_metrics": {
+      "total_words": 55495,
+      "total_tokens": 104667,
+      "total_chars": 387442,
+      "fertility_tokens_per_word": 1.8861,
+      "avg_token_length_chars": 3.7017,
+      "compression_chars_per_token": 3.7017,
+      "unk_rate": 0.00042,
+      "unique_tokens_used": 6696,
+      "vocab_size": 8000,
+      "vocab_utilization": 0.837
+    },
+    "morpheme_metrics": {
+      "morpheme_exact_match_accuracy": 0.2069,
+      "morpheme_boundary_precision_avg": 1.0,
+      "morpheme_boundary_recall_avg": 0.5236,
+      "morpheme_boundary_f1_avg": 0.6213,
+      "total_test_words": 29,
+      "skipped_words": 1,
+      "per_word": {
+        "балаларға": {
+          "gold": "бала+лар+ға",
+          "predicted": "балаларға",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "келгендеріңіз": {
+          "gold": "кел+ген+дер+іңіз",
+          "predicted": "келген+дер+іңіз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "жаздыртылмаған": {
+          "gold": "жаз+дыр+т+ыл+ма+ған",
+          "predicted": "жаз+дыр+тыл+маған",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75
+        },
+        "оқушыларымыздың": {
+          "gold": "оқу+шы+лар+ымыз+дың",
+          "predicted": "оқушылар+ымыздың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "сөйлесетінмін": {
+          "gold": "сөйле+с+е+тін+мін",
+          "predicted": "сөйлес+етін+мін",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "тапсырылды": {
+          "gold": "тапсыр+ыл+ды",
+          "predicted": "тапсыр+ылды",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "бармайтынбыз": {
+          "gold": "бар+ма+йтын+быз",
+          "predicted": "бар+майтын+быз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "сұлулығымен": {
+          "skipped": true,
+          "reason": "reconstruction_mismatch"
+        },
+        "адамдарша": {
+          "gold": "адам+дар+ша",
+          "predicted": "адамдар+ша",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "жұмысшылармен": {
+          "gold": "жұмыс+шы+лар+мен",
+          "predicted": "жұмыс+шылар+мен",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "бүгінгі": {
+          "gold": "бүгін+гі",
+          "predicted": "бүгінгі",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "теміржолшы": {
+          "gold": "темір+жол+шы",
+          "predicted": "темір+жол+шы",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ақпараттандыру": {
+          "gold": "ақпарат+тан+дыр+у",
+          "predicted": "ақпарат+тандыру",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "мемлекеттік": {
+          "gold": "мемлекет+тік",
+          "predicted": "мемлекеттік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "қолданбалы": {
+          "gold": "қолдан+ба+лы",
+          "predicted": "қолдан+балы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "кітаптарым": {
+          "gold": "кітап+тар+ым",
+          "predicted": "кітап+тар+ым",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "мектепке": {
+          "gold": "мектеп+ке",
+          "predicted": "мектепке",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "ағаштардың": {
+          "gold": "ағаш+тар+дың",
+          "predicted": "ағаш+тардың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "балалардан": {
+          "gold": "бала+лар+дан",
+          "predicted": "балалар+дан",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "келмейді": {
+          "gold": "кел+ме+й+ді",
+          "predicted": "келмейді",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "барғандар": {
+          "gold": "бар+ған+дар",
+          "predicted": "барған+дар",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "алмадым": {
+          "gold": "ал+ма+ды+м",
+          "predicted": "алмады+м",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "көрдік": {
+          "gold": "көр+ді+к",
+          "predicted": "көр+дік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "жазамын": {
+          "gold": "жаз+а+мын",
+          "predicted": "жаз+амын",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "кетеміз": {
+          "gold": "кет+е+міз",
+          "predicted": "кет+еміз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "оқулықтарыңыз": {
+          "gold": "оқу+лық+тар+ыңыз",
+          "predicted": "оқу+лықтар+ыңыз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "Атырау": {
+          "gold": "Атырау",
+          "predicted": "Атырау",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Тараз": {
+          "gold": "Тараз",
+          "predicted": "Тараз",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "мен": {
+          "gold": "мен",
+          "predicted": "мен",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ие": {
+          "gold": "ие",
+          "predicted": "ие",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  },
+  "unigram_16000": {
+    "corpus_metrics": {
+      "total_words": 55495,
+      "total_tokens": 90376,
+      "total_chars": 387442,
+      "fertility_tokens_per_word": 1.6285,
+      "avg_token_length_chars": 4.287,
+      "compression_chars_per_token": 4.287,
+      "unk_rate": 0.000487,
+      "unique_tokens_used": 10445,
+      "vocab_size": 16000,
+      "vocab_utilization": 0.6528
+    },
+    "morpheme_metrics": {
+      "morpheme_exact_match_accuracy": 0.1379,
+      "morpheme_boundary_precision_avg": 0.9828,
+      "morpheme_boundary_recall_avg": 0.3891,
+      "morpheme_boundary_f1_avg": 0.4754,
+      "total_test_words": 29,
+      "skipped_words": 1,
+      "per_word": {
+        "балаларға": {
+          "gold": "бала+лар+ға",
+          "predicted": "балаларға",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "келгендеріңіз": {
+          "gold": "кел+ген+дер+іңіз",
+          "predicted": "келген+дер+іңіз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "жаздыртылмаған": {
+          "gold": "жаз+дыр+т+ыл+ма+ған",
+          "predicted": "жазды+рт+ылмаған",
+          "exact_match": false,
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.286
+        },
+        "оқушыларымыздың": {
+          "gold": "оқу+шы+лар+ымыз+дың",
+          "predicted": "оқушылар+ымыздың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "сөйлесетінмін": {
+          "gold": "сөйле+с+е+тін+мін",
+          "predicted": "сөйлес+етін+мін",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "тапсырылды": {
+          "gold": "тапсыр+ыл+ды",
+          "predicted": "тапсырылды",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "бармайтынбыз": {
+          "gold": "бар+ма+йтын+быз",
+          "predicted": "бар+майтын+быз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "сұлулығымен": {
+          "skipped": true,
+          "reason": "reconstruction_mismatch"
+        },
+        "адамдарша": {
+          "gold": "адам+дар+ша",
+          "predicted": "адамдар+ша",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "жұмысшылармен": {
+          "gold": "жұмыс+шы+лар+мен",
+          "predicted": "жұмысшылар+мен",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "бүгінгі": {
+          "gold": "бүгін+гі",
+          "predicted": "бүгінгі",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "теміржолшы": {
+          "gold": "темір+жол+шы",
+          "predicted": "теміржол+шы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "ақпараттандыру": {
+          "gold": "ақпарат+тан+дыр+у",
+          "predicted": "ақпараттандыру",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "мемлекеттік": {
+          "gold": "мемлекет+тік",
+          "predicted": "мемлекеттік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "қолданбалы": {
+          "gold": "қолдан+ба+лы",
+          "predicted": "қолданбалы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "кітаптарым": {
+          "gold": "кітап+тар+ым",
+          "predicted": "кітаптар+ым",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "мектепке": {
+          "gold": "мектеп+ке",
+          "predicted": "мектепке",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "ағаштардың": {
+          "gold": "ағаш+тар+дың",
+          "predicted": "ағаштар+дың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "балалардан": {
+          "gold": "бала+лар+дан",
+          "predicted": "балалар+дан",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "келмейді": {
+          "gold": "кел+ме+й+ді",
+          "predicted": "келмейді",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "барғандар": {
+          "gold": "бар+ған+дар",
+          "predicted": "барған+дар",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "алмадым": {
+          "gold": "ал+ма+ды+м",
+          "predicted": "алмады+м",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "көрдік": {
+          "gold": "көр+ді+к",
+          "predicted": "көрдік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "жазамын": {
+          "gold": "жаз+а+мын",
+          "predicted": "жаза+мын",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "кетеміз": {
+          "gold": "кет+е+міз",
+          "predicted": "кете+міз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "оқулықтарыңыз": {
+          "gold": "оқу+лық+тар+ыңыз",
+          "predicted": "оқулықтар+ыңыз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "Атырау": {
+          "gold": "Атырау",
+          "predicted": "Атырау",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Тараз": {
+          "gold": "Тараз",
+          "predicted": "Тараз",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "мен": {
+          "gold": "мен",
+          "predicted": "мен",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ие": {
+          "gold": "ие",
+          "predicted": "ие",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  },
+  "unigram_32000": {
+    "corpus_metrics": {
+      "total_words": 55495,
+      "total_tokens": 81707,
+      "total_chars": 387442,
+      "fertility_tokens_per_word": 1.4723,
+      "avg_token_length_chars": 4.7419,
+      "compression_chars_per_token": 4.7418,
+      "unk_rate": 0.000539,
+      "unique_tokens_used": 14384,
+      "vocab_size": 32000,
+      "vocab_utilization": 0.4495
+    },
+    "morpheme_metrics": {
+      "morpheme_exact_match_accuracy": 0.1379,
+      "morpheme_boundary_precision_avg": 0.9483,
+      "morpheme_boundary_recall_avg": 0.3316,
+      "morpheme_boundary_f1_avg": 0.4018,
+      "total_test_words": 29,
+      "skipped_words": 1,
+      "per_word": {
+        "балаларға": {
+          "gold": "бала+лар+ға",
+          "predicted": "балаларға",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "келгендеріңіз": {
+          "gold": "кел+ген+дер+іңіз",
+          "predicted": "келгендер+іңіз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "жаздыртылмаған": {
+          "gold": "жаз+дыр+т+ыл+ма+ған",
+          "predicted": "жазды+рт+ылмаған",
+          "exact_match": false,
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.286
+        },
+        "оқушыларымыздың": {
+          "gold": "оқу+шы+лар+ымыз+дың",
+          "predicted": "оқушылар+ымыздың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "сөйлесетінмін": {
+          "gold": "сөйле+с+е+тін+мін",
+          "predicted": "сөйлесе+тін+мін",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "тапсырылды": {
+          "gold": "тапсыр+ыл+ды",
+          "predicted": "тапсырылды",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "бармайтынбыз": {
+          "gold": "бар+ма+йтын+быз",
+          "predicted": "бар+майтын+быз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "сұлулығымен": {
+          "skipped": true,
+          "reason": "reconstruction_mismatch"
+        },
+        "адамдарша": {
+          "gold": "адам+дар+ша",
+          "predicted": "адамдар+ша",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "жұмысшылармен": {
+          "gold": "жұмыс+шы+лар+мен",
+          "predicted": "жұмысшылар+мен",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "бүгінгі": {
+          "gold": "бүгін+гі",
+          "predicted": "бүгінгі",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "теміржолшы": {
+          "gold": "темір+жол+шы",
+          "predicted": "теміржол+шы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "ақпараттандыру": {
+          "gold": "ақпарат+тан+дыр+у",
+          "predicted": "ақпараттандыру",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "мемлекеттік": {
+          "gold": "мемлекет+тік",
+          "predicted": "мемлекеттік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "қолданбалы": {
+          "gold": "қолдан+ба+лы",
+          "predicted": "қолданбалы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "кітаптарым": {
+          "gold": "кітап+тар+ым",
+          "predicted": "кітаптары+м",
+          "exact_match": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "мектепке": {
+          "gold": "мектеп+ке",
+          "predicted": "мектепке",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "ағаштардың": {
+          "gold": "ағаш+тар+дың",
+          "predicted": "ағаштардың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "балалардан": {
+          "gold": "бала+лар+дан",
+          "predicted": "балалар+дан",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "келмейді": {
+          "gold": "кел+ме+й+ді",
+          "predicted": "келмейді",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "барғандар": {
+          "gold": "бар+ған+дар",
+          "predicted": "барған+дар",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "алмадым": {
+          "gold": "ал+ма+ды+м",
+          "predicted": "алмадым",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "көрдік": {
+          "gold": "көр+ді+к",
+          "predicted": "көрдік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "жазамын": {
+          "gold": "жаз+а+мын",
+          "predicted": "жаза+мын",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "кетеміз": {
+          "gold": "кет+е+міз",
+          "predicted": "кете+міз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "оқулықтарыңыз": {
+          "gold": "оқу+лық+тар+ыңыз",
+          "predicted": "оқулықтар+ыңыз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "Атырау": {
+          "gold": "Атырау",
+          "predicted": "Атырау",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Тараз": {
+          "gold": "Тараз",
+          "predicted": "Тараз",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "мен": {
+          "gold": "мен",
+          "predicted": "мен",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ие": {
+          "gold": "ие",
+          "predicted": "ие",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  },
+  "unigram_50000": {
+    "corpus_metrics": {
+      "total_words": 55495,
+      "total_tokens": 77611,
+      "total_chars": 387442,
+      "fertility_tokens_per_word": 1.3985,
+      "avg_token_length_chars": 4.9921,
+      "compression_chars_per_token": 4.9921,
+      "unk_rate": 0.000567,
+      "unique_tokens_used": 16473,
+      "vocab_size": 50000,
+      "vocab_utilization": 0.3295
+    },
+    "morpheme_metrics": {
+      "morpheme_exact_match_accuracy": 0.1379,
+      "morpheme_boundary_precision_avg": 0.9483,
+      "morpheme_boundary_recall_avg": 0.2885,
+      "morpheme_boundary_f1_avg": 0.3466,
+      "total_test_words": 29,
+      "skipped_words": 1,
+      "per_word": {
+        "балаларға": {
+          "gold": "бала+лар+ға",
+          "predicted": "балаларға",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "келгендеріңіз": {
+          "gold": "кел+ген+дер+іңіз",
+          "predicted": "келген+деріңіз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "жаздыртылмаған": {
+          "gold": "жаз+дыр+т+ыл+ма+ған",
+          "predicted": "жазды+рт+ылмаған",
+          "exact_match": false,
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.286
+        },
+        "оқушыларымыздың": {
+          "gold": "оқу+шы+лар+ымыз+дың",
+          "predicted": "оқушылар+ымыздың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "сөйлесетінмін": {
+          "gold": "сөйле+с+е+тін+мін",
+          "predicted": "сөйлесетін+мін",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "тапсырылды": {
+          "gold": "тапсыр+ыл+ды",
+          "predicted": "тапсырылды",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "бармайтынбыз": {
+          "gold": "бар+ма+йтын+быз",
+          "predicted": "бар+майтын+быз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "сұлулығымен": {
+          "skipped": true,
+          "reason": "reconstruction_mismatch"
+        },
+        "адамдарша": {
+          "gold": "адам+дар+ша",
+          "predicted": "адамдар+ша",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "жұмысшылармен": {
+          "gold": "жұмыс+шы+лар+мен",
+          "predicted": "жұмысшылар+мен",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "бүгінгі": {
+          "gold": "бүгін+гі",
+          "predicted": "бүгінгі",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "теміржолшы": {
+          "gold": "темір+жол+шы",
+          "predicted": "теміржол+шы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "ақпараттандыру": {
+          "gold": "ақпарат+тан+дыр+у",
+          "predicted": "ақпараттандыру",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "мемлекеттік": {
+          "gold": "мемлекет+тік",
+          "predicted": "мемлекеттік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "қолданбалы": {
+          "gold": "қолдан+ба+лы",
+          "predicted": "қолданбалы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "кітаптарым": {
+          "gold": "кітап+тар+ым",
+          "predicted": "кітаптары+м",
+          "exact_match": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "мектепке": {
+          "gold": "мектеп+ке",
+          "predicted": "мектепке",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "ағаштардың": {
+          "gold": "ағаш+тар+дың",
+          "predicted": "ағаштардың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "балалардан": {
+          "gold": "бала+лар+дан",
+          "predicted": "балалар+дан",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "келмейді": {
+          "gold": "кел+ме+й+ді",
+          "predicted": "келмейді",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "барғандар": {
+          "gold": "бар+ған+дар",
+          "predicted": "барған+дар",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "алмадым": {
+          "gold": "ал+ма+ды+м",
+          "predicted": "алмадым",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "көрдік": {
+          "gold": "көр+ді+к",
+          "predicted": "көрдік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "жазамын": {
+          "gold": "жаз+а+мын",
+          "predicted": "жазамын",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "кетеміз": {
+          "gold": "кет+е+міз",
+          "predicted": "кетеміз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "оқулықтарыңыз": {
+          "gold": "оқу+лық+тар+ыңыз",
+          "predicted": "оқулықтар+ыңыз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "Атырау": {
+          "gold": "Атырау",
+          "predicted": "Атырау",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Тараз": {
+          "gold": "Тараз",
+          "predicted": "Тараз",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "мен": {
+          "gold": "мен",
+          "predicted": "мен",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ие": {
+          "gold": "ие",
+          "predicted": "ие",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  },
+  "unigram_64000": {
+    "corpus_metrics": {
+      "total_words": 55495,
+      "total_tokens": 75865,
+      "total_chars": 387442,
+      "fertility_tokens_per_word": 1.3671,
+      "avg_token_length_chars": 5.107,
+      "compression_chars_per_token": 5.107,
+      "unk_rate": 0.00058,
+      "unique_tokens_used": 17400,
+      "vocab_size": 64000,
+      "vocab_utilization": 0.2719
+    },
+    "morpheme_metrics": {
+      "morpheme_exact_match_accuracy": 0.1379,
+      "morpheme_boundary_precision_avg": 0.9138,
+      "morpheme_boundary_recall_avg": 0.2655,
+      "morpheme_boundary_f1_avg": 0.319,
+      "total_test_words": 29,
+      "skipped_words": 1,
+      "per_word": {
+        "балаларға": {
+          "gold": "бала+лар+ға",
+          "predicted": "балаларға",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "келгендеріңіз": {
+          "gold": "кел+ген+дер+іңіз",
+          "predicted": "келген+деріңіз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "жаздыртылмаған": {
+          "gold": "жаз+дыр+т+ыл+ма+ған",
+          "predicted": "жазды+р+тылмаған",
+          "exact_match": false,
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.286
+        },
+        "оқушыларымыздың": {
+          "gold": "оқу+шы+лар+ымыз+дың",
+          "predicted": "оқушылар+ымыздың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "сөйлесетінмін": {
+          "gold": "сөйле+с+е+тін+мін",
+          "predicted": "сөйлесетін+мін",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "тапсырылды": {
+          "gold": "тапсыр+ыл+ды",
+          "predicted": "тапсырылды",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "бармайтынбыз": {
+          "gold": "бар+ма+йтын+быз",
+          "predicted": "бармай+тынбыз",
+          "exact_match": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "сұлулығымен": {
+          "skipped": true,
+          "reason": "reconstruction_mismatch"
+        },
+        "адамдарша": {
+          "gold": "адам+дар+ша",
+          "predicted": "адамдар+ша",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "жұмысшылармен": {
+          "gold": "жұмыс+шы+лар+мен",
+          "predicted": "жұмысшылар+мен",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "бүгінгі": {
+          "gold": "бүгін+гі",
+          "predicted": "бүгінгі",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "теміржолшы": {
+          "gold": "темір+жол+шы",
+          "predicted": "теміржол+шы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "ақпараттандыру": {
+          "gold": "ақпарат+тан+дыр+у",
+          "predicted": "ақпараттандыру",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "мемлекеттік": {
+          "gold": "мемлекет+тік",
+          "predicted": "мемлекеттік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "қолданбалы": {
+          "gold": "қолдан+ба+лы",
+          "predicted": "қолданбалы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "кітаптарым": {
+          "gold": "кітап+тар+ым",
+          "predicted": "кітаптары+м",
+          "exact_match": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "мектепке": {
+          "gold": "мектеп+ке",
+          "predicted": "мектепке",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "ағаштардың": {
+          "gold": "ағаш+тар+дың",
+          "predicted": "ағаштардың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "балалардан": {
+          "gold": "бала+лар+дан",
+          "predicted": "балалар+дан",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "келмейді": {
+          "gold": "кел+ме+й+ді",
+          "predicted": "келмейді",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "барғандар": {
+          "gold": "бар+ған+дар",
+          "predicted": "барған+дар",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "алмадым": {
+          "gold": "ал+ма+ды+м",
+          "predicted": "алмадым",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "көрдік": {
+          "gold": "көр+ді+к",
+          "predicted": "көрдік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "жазамын": {
+          "gold": "жаз+а+мын",
+          "predicted": "жазамын",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "кетеміз": {
+          "gold": "кет+е+міз",
+          "predicted": "кетеміз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "оқулықтарыңыз": {
+          "gold": "оқу+лық+тар+ыңыз",
+          "predicted": "оқулықтар+ыңыз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "Атырау": {
+          "gold": "Атырау",
+          "predicted": "Атырау",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Тараз": {
+          "gold": "Тараз",
+          "predicted": "Тараз",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "мен": {
+          "gold": "мен",
+          "predicted": "мен",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ие": {
+          "gold": "ие",
+          "predicted": "ие",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  },
+  "unigram_8000": {
+    "corpus_metrics": {
+      "total_words": 55495,
+      "total_tokens": 101995,
+      "total_chars": 387442,
+      "fertility_tokens_per_word": 1.8379,
+      "avg_token_length_chars": 3.7987,
+      "compression_chars_per_token": 3.7986,
+      "unk_rate": 0.000431,
+      "unique_tokens_used": 6485,
+      "vocab_size": 8000,
+      "vocab_utilization": 0.8106
+    },
+    "morpheme_metrics": {
+      "morpheme_exact_match_accuracy": 0.1379,
+      "morpheme_boundary_precision_avg": 0.9655,
+      "morpheme_boundary_recall_avg": 0.4523,
+      "morpheme_boundary_f1_avg": 0.5558,
+      "total_test_words": 29,
+      "skipped_words": 1,
+      "per_word": {
+        "балаларға": {
+          "gold": "бала+лар+ға",
+          "predicted": "балаларға",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "келгендеріңіз": {
+          "gold": "кел+ген+дер+іңіз",
+          "predicted": "келген+дер+іңіз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "жаздыртылмаған": {
+          "gold": "жаз+дыр+т+ыл+ма+ған",
+          "predicted": "жазды+рт+ылмаған",
+          "exact_match": false,
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.286
+        },
+        "оқушыларымыздың": {
+          "gold": "оқу+шы+лар+ымыз+дың",
+          "predicted": "оқушылар+ымыздың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "сөйлесетінмін": {
+          "gold": "сөйле+с+е+тін+мін",
+          "predicted": "сөйлес+етін+мін",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "тапсырылды": {
+          "gold": "тапсыр+ыл+ды",
+          "predicted": "тап+сыр+ылды",
+          "exact_match": false,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "бармайтынбыз": {
+          "gold": "бар+ма+йтын+быз",
+          "predicted": "бар+майтын+быз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "сұлулығымен": {
+          "skipped": true,
+          "reason": "reconstruction_mismatch"
+        },
+        "адамдарша": {
+          "gold": "адам+дар+ша",
+          "predicted": "адамдар+ша",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "жұмысшылармен": {
+          "gold": "жұмыс+шы+лар+мен",
+          "predicted": "жұмысшылар+мен",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "бүгінгі": {
+          "gold": "бүгін+гі",
+          "predicted": "бүгінгі",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "теміржолшы": {
+          "gold": "темір+жол+шы",
+          "predicted": "теміржол+шы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "ақпараттандыру": {
+          "gold": "ақпарат+тан+дыр+у",
+          "predicted": "ақпарат+тандыру",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "мемлекеттік": {
+          "gold": "мемлекет+тік",
+          "predicted": "мемлекеттік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "қолданбалы": {
+          "gold": "қолдан+ба+лы",
+          "predicted": "қолданба+лы",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "кітаптарым": {
+          "gold": "кітап+тар+ым",
+          "predicted": "кітаптар+ым",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "мектепке": {
+          "gold": "мектеп+ке",
+          "predicted": "мектепке",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "ағаштардың": {
+          "gold": "ағаш+тар+дың",
+          "predicted": "ағаштар+дың",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "балалардан": {
+          "gold": "бала+лар+дан",
+          "predicted": "балалар+дан",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "келмейді": {
+          "gold": "кел+ме+й+ді",
+          "predicted": "келмейді",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "барғандар": {
+          "gold": "бар+ған+дар",
+          "predicted": "барған+дар",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "алмадым": {
+          "gold": "ал+ма+ды+м",
+          "predicted": "алмады+м",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "көрдік": {
+          "gold": "көр+ді+к",
+          "predicted": "көр+дік",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "жазамын": {
+          "gold": "жаз+а+мын",
+          "predicted": "жаза+мын",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "кетеміз": {
+          "gold": "кет+е+міз",
+          "predicted": "кете+міз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667
+        },
+        "оқулықтарыңыз": {
+          "gold": "оқу+лық+тар+ыңыз",
+          "predicted": "оқулықтар+ыңыз",
+          "exact_match": false,
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5
+        },
+        "Атырау": {
+          "gold": "Атырау",
+          "predicted": "Атырау",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Тараз": {
+          "gold": "Тараз",
+          "predicted": "Тараз",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "мен": {
+          "gold": "мен",
+          "predicted": "мен",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ие": {
+          "gold": "ие",
+          "predicted": "ие",
+          "exact_match": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  }
+}
